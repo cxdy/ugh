@@ -1,0 +1,27 @@
+/* Apply for: FF 1.0.7+, Moz 1.6+, NN 7.2+, Opera 7.23+, Safari 1.2+, Kon 3.4+ */
+@import "../core-init.css" Screen;
+@import "../core-site.css" Screen;
+@import "main.css" Screen;
+
+/* Apply for: IE 5.5+, AOL 9.0 */
+@import url ("../core-init.css");
+@import url ("../core-site.css");
+@import url ("main.css");
+
+
+/* No apply for:
+	- NN 4.78 and lower
+	- IE 5.0 and lower
+	- MAC IE 5.2 and lower
+	- Opera 6.0 and lower
+*/
+/* Bugs:
+	- screenshot/4580354.jpg
+	В броузере Konqueror шрифт больше чем надо.
+
+	- screenshot/4580358.jpg
+	- screenshot/4580359.jpg
+	- screenshot/4580368.jpg
+	- screenshot/4580369.jpg
+	Под Mac OS у разных версий FF разные межстрочные растояния в списках.
+*/

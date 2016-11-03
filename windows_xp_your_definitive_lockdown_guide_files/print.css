@@ -1,0 +1,49 @@
+body{
+	background:#fff;
+	color:#000;
+	font-size:10pt;
+}
+#art-ads-block,
+#ww-header ul,
+#ww-header #ww-search,
+#ww-footer ul,
+#home-newsletter-subsr,
+#art-newsletter-subsr,
+#ww-menu,
+.ww-rsslink,
+#art-meta form,
+#main-banner,
+.ww-sidebar,
+#ww-featured-links,
+#am-printversion,
+#am-adjust-font,
+#art-meta img{
+	display:none;
+}
+
+#ww-footer{
+	border-top:5px solid #ddd;
+	text-align:center;
+}
+
+/*
+#ww-content{
+	margin-left:20mm;
+}
+
+#ww-content a:link:after, 
+#ww-content a:visited:after {
+	content:" (" attr(href) ") ";
+	font-size:80%;
+}
+*/
+#art-about-author img{
+	float:left;
+	margin:0 2em 0 0;
+}
+h1,h2,h3,h4,h5,h6{
+	clear:both;
+}
+a img{
+	border:none;
+}

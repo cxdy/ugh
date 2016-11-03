@@ -1,0 +1,43 @@
+Instructions:
+
+1) Type the answer to the question in place of 
+<Type Answer Here>
+
+2) Save the file (you will not get credit until the 
+file is saved)
+
+Example question (not scored):
+
+What was the name of the Lone Ranger's horse?
+
+ANSWER: <Type Answer Here>
+
+After correctly answering the question, the example 
+question would look like this:
+
+What was the name of the Lone Ranger's horse?
+
+ANSWER: Silver
+
+If the question has more than one answer, place each 
+answer on a separate line, for example:
+
+What was the name of the Lone Ranger's horse?
+
+ANSWER: Silver
+ANSWER: Dusty
+
+Remember to save the file after typing the answer.  
+The scored question appears below.
+
+===========================================================
+
+A modified version of the Tini backdoor has been installed 
+on this computer and set to start on boot.  This backdoor 
+gives an attacker access to a command prompt when connecting 
+to it via telnet or netcat.  The default port that the Tini 
+backdoor listens on is 7777, however this backdoor has been 
+modified to listen on a different port.  What port does this 
+modified backdoor listen on?
+
+ANSWER: <Type Answer Here>

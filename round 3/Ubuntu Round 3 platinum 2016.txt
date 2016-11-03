@@ -1,0 +1,52 @@
+TODO:
+
+- secure computer
+- Update packages
+- Update firefox
+- Add admins to sudo
+
+SSH port: 420
+
+Admins: 
+Joshua:L!ght3r
+Murtah:0ldM4N
+Riggs:$t00ges
+
+Users: (default password: eriksucks) (Removed Hugo and Blofeld)
+Andrew
+Kevin (No longer an admin)
+Scott
+Martin
+Rodger
+Brandon
+Eric
+Kyle
+Kenny (No longer an admin)
+John
+Seth
+Owen
+Gary
+
+Things done:
+Forensics Question 1 correct - 5 pts
+Forensics Question 2 correct - 5 pts
+Forensics Question 3 correct - 5 pts
+Forensics Question 4 correct - 5 pts
+Removed unauthorized user Blofeld - 2 pts
+Removed unauthorized user Hugo - 2 pts
+User Kevin is not an administrator - 2 pts
+User Kenny is not an administrator - 2 pts
+Changed insecure root password - 3 pts
+A minimum password length is required - 4 pts
+MySQL has been updated - 2 pts
+Sudo has been updated - 2 pts
+TCP syn cookies have been enabled - 3 pts
+Linux kernel has been updated - 2 pts
+IPv6 is disabled - 4 pts
+Nginx has been disabled/removed - 4 pts
+Removed netcat backdoor - 4 pts
+Removed hydra password cracker - 3 pts
+A firewall has been enabled - 3 pts
+MySQL remote access is disabled - 4 pts
+sshd service has been installed and started - 4 pts
+SSH root login has been disabled - 4 pts

@@ -1,0 +1,130 @@
+/* footer text override styles for new footer format */
+
+#footer.alt-footer .container > div {
+	max-width: 165px;
+}
+
+#footer.alt-footer .container > div h5 {
+	font-family: 'Flama-Medium', Arial, sans-serif;
+	letter-spacing: 1px;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: #FFFFFF;
+	text-shadow: rgba(0,0,0,0.25) 0px 1px 1px;
+}
+
+#footer.alt-footer a {
+	color: #99cae8;
+	font-family: 'Flama-Basic', Arial, sans-serif;
+	font-size: 14px;	
+}
+
+#footer.alt-footer a:hover {
+	color: #004977;
+}
+
+/* --- Footer Legal and Language Nav bar --- */
+#legal.alt-footer a:hover {
+	color: #004977;
+}
+
+#legal.alt-footer {
+    height: 70px;
+}
+
+#legal.alt-footer p {
+	display: block;
+    float: none;
+    margin-top: 0;
+}
+
+#legal.alt-footer #footer-logo p {
+	color: #99cae8
+}
+
+#legal.alt-footer ul {
+	position: relative;
+	margin: 26px 0 0 0;
+}
+
+#legal.alt-footer li.global-footer {
+    position: relative;
+}
+
+#legal.alt-footer li.global-footer img.img-footer-globe, #legal.alt-footer li.global-footer img.img-footer-arrow {
+	vertical-align:middle
+}
+
+#legal.alt-footer #popup-global-footer.popup {
+    display: none;
+    width: 140px;
+    display: none;
+    position: absolute;
+    right: -45px;
+    bottom: 25px;
+	z-index: 10;
+}
+
+#legal.alt-footer #popup-global-footer.popup > span.arrow {
+    width: 24px;
+    height: 10px;
+    display: block;
+    background: url(/SophosNext/Assets/Images/popup-arrow-language.png) no-repeat;
+    position: absolute;
+    right: 55px;
+    bottom: -8px;
+}
+
+#legal.alt-footer #popup-global-footer .popup-wrap{
+    box-shadow:rgba(0,0,0,0.2) 0px 15px 30px;
+    border-radius:5px;
+}
+
+#legal.alt-footer #popup-global-footer .popup-content {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: 1px solid #DDD;
+	padding: 20px 0;
+}
+
+#legal.alt-footer #popup-global-footer .popup-content ul{
+	position: relative;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    float:none;
+}
+
+#legal.alt-footer #popup-global-footer .popup-content li{
+    float:none;
+    margin:0;
+    padding:0;
+    height:auto;
+    border-top:0;
+}
+
+#legal.alt-footer #popup-global-footer .popup-content li a{
+    text-transform: none;
+    font-family: 'Flama-Medium';
+    font-size: 14px;
+    color: #334653;
+    padding:8px 20px;
+    letter-spacing: 0px;
+    display:block;
+    text-align: center;
+}
+
+#legal.alt-footer #popup-global-footer .popup-content li a:hover{
+    background:#FFF;
+}
+
+#legal.alt-footer #popup-global-footer .popup-content li img.selected {
+    /*float: left;*/
+    margin-top: 12px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+

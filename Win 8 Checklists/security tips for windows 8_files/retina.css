@@ -1,0 +1,30 @@
+/* ------------------------------------- */
+/* Retina ready images -- Oh yes we did! 
+/* ------------------------------------- */
+
+@media
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+  .icon-secure{
+    background:url(/SophosNext/Assets/Images/icon-secure@2x.png) no-repeat;
+    background-size:30px 30px;
+  }
+  .error{
+    background:url(/SophosNext/Assets/Images/error@2x.png) no-repeat 98% 3px #FFF;
+    background-size:23px 23px;
+  }
+  .free-tools{
+    background:url(/SophosNext/Assets/Images/icon-free-tools@2x.png) no-repeat;
+    background-size: 19px 17px;
+  }
+  .live-chat{
+    background:url(/SophosNext/Assets/Images/icon-chat@2x.png) no-repeat;
+    background-size: 19px 16px;
+  }
+  .contact{
+    background:url(/SophosNext/Assets/Images/icon-contact@2x.png) no-repeat;
+    background-size: 19px 16px;
+  }
+
+}

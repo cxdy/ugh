@@ -1,0 +1,588 @@
+/* --- Logo & Nav --- */
+
+/*This div wraps both primary and secondary nav */
+
+#body #nav{
+	background-color: transparent !important;
+}
+
+#nav{
+  position: fixed;
+  left:0;
+  top:0;
+  z-index:1000;
+  width:100%;
+  box-shadow:rgba(0,0,0,0.2) 0px 1px 12px;
+}
+#header{
+  background:#FFF;
+  background:rgba(255,255,255,1.0);
+  height:60px;
+  width:100%;
+}
+  #header .container{
+    position: relative;
+  }
+
+  #header #logo{
+    float:left;
+    margin: 20px 0;
+  }
+  #header ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    float:right;
+  }
+    #header li{
+      float:left;
+      margin:0 20px 0 0;
+      height:47px;
+      padding-top:13px;
+    }
+      #header li:last-child{
+        margin-right:0;
+      }
+      #header li.selected{
+        background:url(/SophosNext/Assets/Images/nav-primary-selected.png) no-repeat center bottom;
+      }
+      #header li.selected a, #header li.selected a:hover{
+        color:#0077C5;
+      }
+    #header li a{
+      font-family: 'Flama-Medium';
+      font-size:13px;
+      text-transform: uppercase;
+      color:#666;
+      display:inline-block;
+      padding:10px;
+      letter-spacing: 1px;
+    }
+      #header li a:hover{
+        color:#0074C4;
+      }
+      #header li.icon{
+        margin-top:-2px;
+      }
+      .icon a{
+        text-indent: -9999px;
+        width:34px;
+        height:34px;
+        padding:0 !important;
+        background-position: left top;
+        background-repeat: no-repeat;
+      }
+        .icon a:hover{
+          background-position: left bottom;
+        }
+      .signin{
+        background-image:url(/medialibrary/SophosNext/Images/Navigation/icon-signin.png);
+      }
+	  .signed-in{
+  background-position:left center !important;
+}
+      .global{
+        background-image:url(/SophosNext/Assets/Images/icon-global.png);
+      }
+      .search{
+        background-image:url(/SophosNext/Assets/Images/icon-search.png);
+      }
+
+/* --- Contextual Popups --- */
+.popup{
+  position: absolute;
+  z-index: 10;
+  /*-webkit-filter: drop-shadow(0 10px 15px rgba(0,0,0,0.6));
+  -moz-filter: drop-shadow(0 10px 15px rgba(0,0,0,0.6));
+  -ms-filter: drop-shadow(0 10px 15px rgba(0,0,0,0.6));
+  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.6));*/
+}
+  .popup > span{
+    width:24px;
+    height:10px;
+    display:block;
+    background:url(/SophosNext/Assets/Images/popup-arrow.png) no-repeat;
+    position: absolute;
+    right:20px;
+  }
+  .popup h3{
+    background-color: #2c90cf;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(44, 144, 207)), to(rgb(0, 116, 196)));
+    background-image: -webkit-linear-gradient(top, rgb(44, 144, 207), rgb(0, 116, 196));
+    background-image: -moz-linear-gradient(top, rgb(44, 144, 207), rgb(0, 116, 196));
+    background-image: -o-linear-gradient(top, rgb(44, 144, 207), rgb(0, 116, 196));
+    background-image: -ms-linear-gradient(top, rgb(44, 144, 207), rgb(0, 116, 196));
+    background-image: linear-gradient(top, rgb(44, 144, 207), rgb(0, 116, 196));
+    /*filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#2c90cf', EndColorStr='#0074c4'); */
+    filter:none;
+    margin-top:10px;
+    margin-bottom:0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding:15px 20px;
+    color:#FFF;
+    text-shadow:rgba(0,0,0,0.2) 0px 1px 2px;
+  }
+    .popup h3 small{
+      display:block;
+      color:#99E5FF;
+      font-size:11px;
+      font-family: 'Flama-Basic';
+      margin-top:3px;
+    }
+  .popup-wrap{
+    box-shadow:rgba(0,0,0,0.2) 0px 15px 30px;
+    border-radius:5px;
+  }
+  .popup-content{
+    background:#F1F1F1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding:20px;
+    border:1px solid #DDD;
+    border-top:none;
+    box-shadow:inset 0px 1px 0px rgba(255,255,255,0.9);
+  }
+  
+  #popup-signin .popup-content{
+  padding:0px;
+}
+
+#popup-signin li:last-child a, #header #popup-global li:last-child a{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  behavior: url(/SophosNext/PIE.htc);
+}
+
+/* --- Products Mega Nav --- */
+#popup-products{
+  left:21px;
+  top:43px;
+  width:724px;
+  display:none;
+}
+  #popup-products > span{
+    right:50%;
+    margin-right:-12px;
+    background:url(/SophosNext/Assets/Images/popup-arrow-products.png) no-repeat;
+    top:-2px;
+    width:26px;
+    height:13px;
+  }
+  #popup-products h3{
+    background:none;
+    padding:0;
+    margin:0;
+    font-size:15px;
+    color:#333;
+    text-shadow: none;
+  }
+  #popup-products ol{
+    list-style-type: none;
+    margin:10px 0px 0px;
+    padding:0px;
+    background:#F1F1F1;
+    border:1px solid #DDD;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow:rgba(0,0,0,0.08) 0px 0px 10px;
+  }
+  #popup-products ol li{
+    height:auto;
+    width:240px;
+    padding:12px 0px;
+    margin:0;
+
+
+    text-align: center;
+    /*box-shadow:inset 0px 1px 0px rgba(255,255,255,0.1);*/
+    background:none;
+  }
+    #popup-products ol li:first-child{
+      border-top-left-radius: 5px;
+
+    }
+    #popup-products ol li:last-child{
+      border-top-right-radius: 5px;
+    }
+  /*Product Lists*/
+  #popup-products .popup-content{
+    padding:0;
+  }
+  #popup-products ul{
+    float:left;
+    width:240px;
+    margin:0;
+    padding:0;
+    border-right:1px solid #DDD;
+    box-shadow: 1px 0px 0px rgba(255,255,255,0.8);
+    min-height: 220px;
+  }
+    #popup-products ul:last-child{
+      border-right:none;
+      box-shadow: none;
+    }
+  #popup-products ul li{
+    margin:0;
+    padding:0;
+    height:auto;
+  }
+  #popup-products ul li a{
+    font-size:14px;
+    color:#666;
+    font-family: 'Flama-Basic';
+    text-transform: none;
+    letter-spacing: normal;
+    padding:13px 15px 13px 50px;
+    width:175px;
+    display:inline-block;
+    background-position: 15px center;
+    line-height: 1.2;
+  }
+    #popup-products ul li a small{
+      color:#999;
+      font-size: 12px;
+      vertical-align: 7px;
+    }
+    #popup-products ul li:hover{
+      background:#F9F9F9;
+    }
+    #popup-products ul li a:hover{
+      box-shadow:inset 0px 1px 0px #DDD, inset 0px -1px 0px #DDD;
+    }
+    #popup-products ul li:first-child a:hover{
+      box-shadow:inset 0px -1px 0px #DDD;
+    }
+    #popup-products ul li:last-child a:hover{
+      box-shadow:inset 0px 1px 0px #DDD;
+    }
+    #popup-products ul:first-child li:last-child:hover{
+      border-bottom-left-radius: 5px;
+    }
+  /*Product Icons */
+  .icon-utm{
+    background:url(/SophosNext/Assets/Images/icon-utm-small.png) no-repeat;
+  }
+  .icon-branchoffice{
+    background:url(/SophosNext/Assets/Images/icon-branchoffice-small.png) no-repeat;
+  }
+  .icon-securewifi{
+    background:url(/SophosNext/Assets/Images/icon-securewifi-small.png) no-repeat;
+  }
+  .icon-firewall{
+    background:url(/SophosNext/Assets/Images/icon-firewall-small.png) no-repeat;
+  }
+  .icon-webfilter{
+    background:url(/SophosNext/Assets/Images/icon-webfilter-small.png) no-repeat;
+  }
+  .icon-emailscanner{
+    background:url(/SophosNext/Assets/Images/icon-emailscanner-small.png) no-repeat;
+  }
+  .icon-webappfirewall{
+    background:url(/SophosNext/Assets/Images/icon-webappfirewall.png) no-repeat;
+  }
+
+  .icon-eup{
+    background:url(/SophosNext/Assets/Images/icon-eup-small.png) no-repeat;
+    padding:10px 20px 10px 50px !important;
+  }
+  .icon-mobilecontrol{
+    background:url(/SophosNext/Assets/Images/icon-mobilecontrol-small.png) no-repeat;
+  }
+  .icon-encryption{
+    background:url(/SophosNext/Assets/Images/icon-encryption-small.png) no-repeat;
+  }
+
+  .icon-serverprotection{
+    background:url(/SophosNext/Assets/Images/icon-serverprotection-small.png) no-repeat;
+  }
+  .icon-webserverprotection{
+    background:url(/SophosNext/Assets/Images/icon-webserverprotection-small.png) no-repeat;
+  }
+
+.network-heading{
+  background: -webkit-linear-gradient(top, #FF8F4A 0%, #E66200 100%);
+  background: linear-gradient(top bottom, #FF8F4A 0%, #E66200 100%);
+  background: -moz-linear-gradient(top,  #FF8F4A,  #E66200);
+}
+.device-heading{
+  background: -webkit-linear-gradient(top, #66B251 0%, #4C883F 100%);
+  background: linear-gradient(top bottom, #66B251 0%, #4C883F 100%);
+  background: -moz-linear-gradient(top,  #66B251,  #4C883F);
+}
+.server-heading{
+  background: -webkit-linear-gradient(top, #00928A 0%, #00736E 100%);
+  background: linear-gradient(top bottom, #00928A 0%, #00736E 100%);
+  background: -moz-linear-gradient(top,  #00928A,  #00736E);
+}
+
+/* --- Signin Popup --- */
+#popup-signin{
+  right:93px;
+  top:43px;
+  width:230px;
+  display:none;
+}
+  #popup-signin input[type=text], #popup-signin input[type=password]{
+    width:166px;
+  }
+  #popup-signin select{
+    width:190px;
+  }
+  .icon-secure{
+    text-indent: -9999px;
+    background:url(/SophosNext/Assets/Images/icon-secure.png) no-repeat;
+    width:30px;
+    height:31px;
+    display:block;
+    float:right;
+    margin-top:3px;
+  }
+
+#help-links{
+  float:right;
+  margin-top:4px;
+}
+#help-links a{
+  font-size:11px;
+  font-family: 'Flama-Basic';
+  color:#999;
+}
+  #help-links a:hover{
+    color:#0074C4;
+  }
+
+/* --- Global Sites Popup --- */
+#popup-global{
+  right:39px;
+  top:43px;
+  width:185px;
+  display:none;
+}
+  #header #popup-global ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    float:none;
+  }
+  #header #popup-global li{
+    float:none;
+    margin:0;
+    padding:0;
+    height:auto;
+    border-top:1px solid #D6D6D6;
+  }
+  #header #popup-global li a{
+    text-transform: none;
+    font-family: 'Flama-Basic';
+    padding:12px 20px;
+    letter-spacing: 0px;
+    display:block;
+  }
+    #header #popup-global li a:hover{
+      background:#FFF;
+    }
+
+/* --- Search Popup --- */
+#popup-search{
+  right:-15px;
+  top:43px;
+  width:300px;
+  display:none;
+}
+  #popup-search h3{
+    padding:15px;
+  }
+    #popup-search h3.no-results{
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+  #popup-search input{
+    border-radius:15px;
+    padding:5px 30px 5px 12px;
+    width:226px;
+    border:1px solid #005D9C;
+    margin:0;
+  }
+  #popup-search .popup-content{
+    border:none;
+  }
+  #popup-search input.loading{
+    /* background:url(/SophosNext/Assets/Images/loading.gif) no-repeat 96% 7px #FFF; */
+  }
+  /* Search Results */
+  #header #popup-search .popup-content, #header #popup-global .popup-content{
+    padding:0;
+  }
+  #header #popup-search p{
+    margin:0;
+    padding:20px;
+    color:#666;
+    font-size:13px;
+    font-family: 'Flama-Book';
+  }
+  #search-results{
+    display:none;
+  }
+  #header #popup-search ol{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    float:none;
+  }
+  #header #popup-search li{
+    float:none;
+    text-align: left;
+    border-top:1px solid #D6D6D6;
+    margin:0;
+    height:auto;
+    padding-top:0px;
+  }
+  #header #popup-search li a{
+    padding:15px 40px 15px 20px;
+    letter-spacing: 0px;
+    background:url(/SophosNext/Assets/Images/link-arrow.png) no-repeat 95% center transparent;
+  }
+    #header #popup-search li a:hover{
+      background:url(/SophosNext/Assets/Images/link-arrow.png) no-repeat 95% center #FFF;
+    }
+    #header #popup-search li:first-child, #header #popup-global li:first-child{
+      border-top:none;
+    }
+    #header #popup-search li:last-child a, #header #popup-global li:last-child a{
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+  #header #popup-search li h5{
+    text-transform: none;
+    color:#0074C4;
+    font-size:13px;
+    font-family: 'Flama-Basic';
+    padding:0;
+    display:block;
+    margin:0;
+  }
+  #header #popup-search li cite{
+    text-transform: none;
+    font-family: 'Flama-Basic';
+    color:#888;
+    font-size:11px;
+    line-height: 1.2;
+    margin:2px 0 0;
+    display:block;
+    font-style: normal;
+  }
+  #header #popup-search li.all-results a{
+    display: block;
+    text-align: center;
+    font-size: 9px;
+    color: #AAA;
+    padding: 10px;
+    font-family: 'Flama-Basic';
+    text-transform: uppercase;
+    background:none;
+  }
+
+/* --- Secondary Navigation --- */
+#nav #secondary{
+  background:#007AC6;
+  width:100%;
+  height:40px;
+}
+  #secondary ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    float:right;
+    margin:7px 0px;
+  }
+  #secondary li{
+    float:left;
+    margin:0px 0px 0px 15px;
+  }
+  #secondary li a{
+    line-height: 1;
+    padding:6px 15px 7px;
+    color:#FFF;
+    text-shadow:0px 1px 1px rgba(0,0,0,0.25);
+    font-size:13px;
+     display:inline-block;
+  }
+    #secondary li a:hover{
+      color:#CBE4F3;
+    }
+
+  #secondary li.secondary-nav-icon a:last-child {
+  }
+  
+  
+  #secondary li.secondary-nav-icon a:last-child {
+	background-position: 0px 6px;
+	background: #007AC6;
+	box-shadow:none;
+	}
+	
+	#secondary li.secondary-nav-icon a {
+	background-position: left center !important;
+	}
+	#secondary li.secondary-nav-icon.selected a{
+  	padding-left: 34px;
+	padding-right: 34px;
+  }
+
+  #secondary .SecondaryNav li.selected a {
+	background:#005F9D;
+	background-position: 10% 50% !important;
+	border-radius:15px;
+	box-shadow:0px 1px 0px rgba(255,255,255,0.1) ,inset 0px 1px 2px rgba(0,0,0,0);
+  }
+
+    #secondary li.selected a:hover{
+      color:#FFF;
+    }
+  /* Free Tools and Live Chat Variations in Secondary Nav */
+  .section-border{
+    border-left:1px solid rgba(0,0,0,0.15);
+    box-shadow:inset 1px 0px 0px rgba(255,255,255,0.1);
+    padding-left:25px;
+  }
+  #secondary li.secondary-nav-icon a{
+    color:#B8DDF1;
+    padding-left:25px;
+    background-position: 0px 6px;
+  }
+    #secondary li.secondary-nav-icon a:hover{
+      color:#97C8E7;
+    }
+
+/*White Icons in Secondar Nav */
+.free-tools{
+  background:url(/SophosNext/Assets/Images/icon-free-tools.png) no-repeat;
+}
+#secondary li a.live-chat{
+  background:url(/SophosNext/Assets/Images/icon-chat.png) no-repeat;
+  display: none;
+}
+#secondary li span.live-chat.offline {
+  display: inline-block !important; 
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.25); 
+  padding: 6px 15px 9px 25px; 
+  color: #B8DDF1; 
+  background-position: left center !important; 
+  font-size: 13px;
+}
+.lock{
+  background:url(/SophosNext/Assets/Images/icon-lock.png) no-repeat;
+  padding-left:22px !important;
+}
+.contact{
+  background:url(/SophosNext/Assets/Images/icon-contact.png) no-repeat  !important;;
+  background-position: 0px 6px !important;
+  padding-left:22px !important;
+  box-shadow:none !important;
+} 
+
+.get-pricing{
+  margin-top:-1px;
+  background:none !important;
+}

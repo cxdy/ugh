@@ -1,0 +1,92 @@
+/* --- Footer --- */
+
+/* changed from height to min-height */
+#footer {
+	background: #007AC6;
+	min-height: 230px;
+	clear: both;
+}
+/* dropped the right margin and set a max-width of 200px to keep divs from wrapping */
+#footer .container > div {
+	margin: 50px 30px 0 0;
+	padding: 0;
+	float: left;
+	max-width: 190px;
+}
+#footer .container > div:last-child {
+	margin-right: 0;
+}
+#footer .container > div h5 {
+	font-family: 'Flama-Medium', Arial, sans-serif;
+	letter-spacing: 1px;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: #7fc9e9;
+	text-shadow: rgba(0,0,0,0.25) 0px 1px 1px;
+}
+#footer ul {
+	margin: 0;
+	padding: 0;
+	color: #7fc9e9;
+	list-style: none;
+	line-height: 140%;
+}
+/* forced a width for the social icons */
+#footer .footer-badges {
+	width: 35px;
+}
+#footer ul.footer-badges li {
+	margin-top: 7px;
+}
+#footer li {
+	margin: 0 0 3px 0;
+	color: #fff;
+}
+#footer a {
+	font-size: 13px;
+	margin: 0 0 8px 0;
+	color: #fff;
+	text-shadow: rgba(0,0,0,0.25) 0px 1px 1px;
+}
+#footer a:hover {
+	color: #CBE4F3;
+	;
+}
+#legal {
+	background: #005F9D;
+	height: 50px;
+	clear: both;
+}
+#footer-logo {
+	float: left;
+	margin: 18px 20px 0 0;
+	padding: 0;
+}
+#legal p {
+	font-size: 13px;
+	color: #79b0cf;
+	float: left;
+	margin-top: 15px;
+	text-shadow: rgba(0,0,0,0.25) 0px 1px 1px;
+}
+#legal ul {
+	float: right;
+	list-style-type: none;
+	margin: 16px 0 0 0;
+	padding: 0;
+}
+#legal li {
+	float: left;
+	margin-left: 30px;
+}
+#legal a {
+	font-size: 13px;
+	color: #79b0cf;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,0.25) 0px 1px 1px;
+}
+#legal a:hover {
+	color: #7fc9e9;
+}

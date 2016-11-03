@@ -1,0 +1,1135 @@
+/* --- Forms --- */
+
+form {
+	text-align: left;
+}
+label {
+	display: block;
+	font-size: 13px;
+	font-family: 'Flama-Book';
+	text-align: left;
+	margin-bottom: 3px;
+	color: #888;
+}
+select {
+	display: block;
+	margin-bottom: 15px;
+	width: 100%;
+}
+input[type=text], input[type=search], input[type=password] {
+	/*display:block;*/
+	margin-bottom: 15px;
+	margin-right: 5px;
+	border-radius: 4px;
+	padding: 5px 10px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	font-size: 13px;
+	box-shadow: rgba(255,255,255,0.7) 0px 1px 0px, rgba(0,0,0,0.1) 0px 1px 2px inset;
+}
+input:focus {
+	outline: none;
+	border: 1px solid #0077C5;
+}
+input[type=submit] {
+	margin-bottom: 0;
+}
+input[type=search] {
+	border-radius: 20px;
+	background: #fff url("/SophosNext/Assets/Images/icon-search-small.png") 95% center no-repeat;
+	padding: 5px 30px 5px 15px;
+	margin: 10px 0px 15px;
+}
+input[type=checkbox] {
+	margin-right: 4px;
+}
+label+input[type=search] {
+}
+#search-field {
+	box-shadow: rgba(255,255,255,0.2) 0px 1px 0px;
+}
+
+/*Style placeholder text */
+::-webkit-input-placeholder {
+ color:#BBB;
+}
+:-moz-placeholder {
+ color:#BBB;
+}
+::-moz-placeholder {
+ color:#BBB;
+}
+:-ms-input-placeholder {
+ color:#BBB;
+}
+input[type=submit], button, .button {
+	border: 1px solid #37672F;
+	background-color: #7fbb72;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(127, 187, 114)), to(rgb(76, 136, 63)));
+	background-image: -webkit-linear-gradient(top, rgb(127, 187, 114), rgb(76, 136, 63));
+	background-image: -moz-linear-gradient(top, rgb(127, 187, 114), rgb(76, 136, 63));
+	background-image: -o-linear-gradient(top, rgb(127, 187, 114), rgb(76, 136, 63));
+	background-image: -ms-linear-gradient(top, rgb(127, 187, 114), rgb(76, 136, 63));
+	background-image: linear-gradient(top, rgb(127, 187, 114), rgb(76, 136, 63));
+	color: #FFF;
+	text-shadow: rgba(0,0,0,0.4) 0px 1px 1px;
+	font-family: 'Flama-Basic';
+	font-size: 13px;
+	padding: 5px 12px 6px;
+	border-radius: 18px;
+	cursor: pointer;
+	box-shadow: rgba(255,255,255,0.3) 0px 0px 5px inset, rgba(0,0,0,0.25) 0px 1px 3px;
+	margin: 0;
+	line-height: 1.2;
+}
+button:active, input[type=submit]:active, .button:active, .button-active {
+	box-shadow: rgba(0,0,0,0.25) 0px 1px 3px inset, rgba(255,255,255,1.0) 0px 1px 0px;
+	color: rgba(255,255,255,0.9);
+}
+.button {
+/*padding:4px 12px 6px 13px !important;*/
+    /*display:inline-block;
+    text-decoration: none;*/
+}
+/* This seems out of whack so I'll just comment it out for now
+  .button.white {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    text-shadow: none;
+    color: #0074C4;
+    padding:7px 0 8px 15px !important;
+  } */
+
+.button.white {
+	background-color: #ffffff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgb(241, 241, 241)));
+	background-image: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(241, 241, 241));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(241, 241, 241));
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255), rgb(241, 241, 241));
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255), rgb(241, 241, 241));
+	background-image: linear-gradient(top, rgb(255, 255, 255), rgb(241, 241, 241));
+	border: 1px solid #DDDDDD;
+	color: #555555 !important;
+	box-shadow: none;
+	text-shadow: none;
+}
+.button.blue {
+	background-color: #56addc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(86, 173, 220)), to(rgb(0, 119, 197)));
+	background-image: -webkit-linear-gradient(top, rgb(86, 173, 220), rgb(0, 119, 197));
+	background-image: -moz-linear-gradient(top, rgb(86, 173, 220), rgb(0, 119, 197));
+	background-image: -o-linear-gradient(top, rgb(86, 173, 220), rgb(0, 119, 197));
+	background-image: -ms-linear-gradient(top, rgb(86, 173, 220), rgb(0, 119, 197));
+	background-image: linear-gradient(top, rgb(86, 173, 220), rgb(0, 119, 197));
+	border: 1px solid #005F9D;
+	color: #FFF !important;
+}
+.button.orange {
+	background-color: #ff984a;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 152, 74)), to(rgb(229, 112, 5)));
+	background-image: -webkit-linear-gradient(top, rgb(255, 152, 74), rgb(229, 112, 5));
+	background-image: -moz-linear-gradient(top, rgb(255, 152, 74), rgb(229, 112, 5));
+	background-image: -o-linear-gradient(top, rgb(255, 152, 74), rgb(229, 112, 5));
+	background-image: -ms-linear-gradient(top, rgb(255, 152, 74), rgb(229, 112, 5));
+	background-image: linear-gradient(top, rgb(255, 152, 74), rgb(229, 112, 5));
+	border: 1px solid #A34600;
+	color: #FFF !important;
+}
+.go {
+	background: url("/SophosNext/Assets/Images/arrow-right.png") right 50% no-repeat;
+	background-size: 16px 17px;
+	padding: 1px 23px 2px 0;
+	margin-right: -3px;
+	display: inline-block;
+}
+.go-light {
+	background: url("/SophosNext/Assets/Images/arrow-right-light.png") right 50% no-repeat;
+	padding: 0 23px 3px 0;
+}
+.go-medium {
+	background: url("/SophosNext/Assets/Images/arrow-right-medium.png") right 50% no-repeat;
+	padding: 0 20px 3px 0;
+}
+.go-mini {
+	background: url("/SophosNext/Assets/Images/arrow-right-mini.png") right 50% no-repeat;
+	padding: 0 18px 4px 0;
+}
+.go-down-light {
+	background: url("/SophosNext/Assets/Images/arrow-down-light.png") right 50% no-repeat;
+	padding: 0 23px 2px 0;
+}
+.go-down-mini {
+	background: url("/SophosNext/Assets/Images/arrow-down-mini.png") right 50% no-repeat;
+	padding: 0 23px 2px 0;
+}
+.go-down-blue {
+	background: url("/SophosNext/Assets/Images/arrow-down-blue.png") right 50% no-repeat;
+}
+.go-right-blue {
+	background: url('/SophosNext/Assets/Images/arrow-right-blue.png') right 50% no-repeat;
+}
+.enter {
+	background-size: 16px 17px;
+	padding: 1px 17px 2px 0px;
+	margin: 0 5px 0 5px;
+	margin-top: 20px;
+	height: 16px;
+}
+.button .download {
+	background: url("/SophosNext/Assets/Images/arrow-down.png") right 50% no-repeat;
+	padding: 0 25px 3px 0;
+}
+.button.chat {
+	background-color: #ffffff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgb(224, 224, 224)));
+	background-image: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(224, 224, 224));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(224, 224, 224));
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255), rgb(224, 224, 224));
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255), rgb(224, 224, 224));
+	background-image: linear-gradient(top, rgb(255, 255, 255), rgb(224, 224, 224));
+	border: 1px solid #DDDDDD;
+	box-shadow: none;
+	text-shadow: none;
+	color: #545454;
+	font-family: 'Flama-Medium';
+	font-size: 13px;
+	padding: 5px 10px 7px 10px !important;
+}
+.chat-green {
+	background: url("/SophosNext/Assets/Images/icon-chat-green.png") left 50% no-repeat;
+	padding: 5px 4px 8px 24px;
+}
+/*Inline error on an input*/
+.error {
+	background: url(/SophosNext/Assets/Images/error.png) no-repeat 98% 3px #FFF;
+	border: 1px solid #D38510;
+}
+address {
+	font-style: normal;
+}
+/* Custom Input Sizes */
+
+#partner-lookup-search {
+	width: 190px;
+}
+.required, .registered, .requiredField {
+	color: #3CBA46;
+}
+.privacy-policy {
+	color: #878787;
+	font-size: 12px;
+}
+/* Sticking in the old sophos.com styles for the time being */
+/* First, reset all the above stuffs */
+.mainForm .formLine *, .mainForm .formLine input[type="text"], .mainForm .formLine input[type="search"], .mainForm .formLine input[type="password"] {
+	margin-bottom: 5px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+	border-radius: 0;
+	padding: 0;
+	/*background:#FFF;*/
+	border: none;
+	font-size: 13px;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	border-style: none;
+	/*background-color: #fff;
+  background-image: none;*/
+	text-shadow: 0;
+	cursor: arrow;
+	line-height: 1em;
+	behavior: none;
+}
+/* Form fields */
+
+  
+.mainForm .formLine {
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+.mainForm .formLine {
+	margin-bottom: 5px;
+	line-height: 100%;
+	min-height: 22px;
+}
+.mainForm .formLine .checkbox {
+	margin: 0 6px;
+}
+.mainForm .formLine .errorMsg {
+	width: 180px;
+	margin: 0;
+	padding: 5px;
+	float: left;
+}
+.mainForm .formLine .formLabel {
+	float: left;
+	min-height: 18px;
+	width: 150px;
+	text-align: right;
+	margin: 6px 8px;
+	font-size: 80%;
+}
+.mainForm .formLine .formLabel label {
+	line-height: 1.3em;
+}
+.mainForm .formField {
+	min-height: 22px;
+	margin: 5px 0px 5px 0;
+	float: left;
+}
+.mainForm .formField input, .mainForm .formLine input[type="text"], .mainForm .formLine input[type="password"], .mainForm .formField textarea, .mainForm .formField select {
+	border: 1px solid;
+	min-height: 22px;
+	vertical-align: middle;
+	border-color: #ACACAC #E7E7E7 #E7E7E7;
+}
+/* fixing the checkbox issue for ie */
+.mainForm .formField input[type='checkbox'] {
+	border: 0;
+	min-height: 10px;
+	margin-right: 5px;
+}
+.mainForm .formField .radiobuttonlist input {
+	border: 0;
+}
+.mainForm .formField .radiobuttonlist label {
+	font-size: 80%;
+}
+.mainForm .formField.radioList label {
+	display: inline;
+}
+.mainForm .formField textarea {
+	height: 120px;
+	width: 300px;
+}
+.mainForm .formField select {
+	width: 110%;
+}
+.mainForm .formField input[type="radio"] {
+	padding: 0;
+	float: none;
+	display: inline;
+	margin-right: 5px;
+}
+.mainForm .formField .smallField {
+	width: 30px;
+}
+.mainForm .formFieldText {
+	padding: 6px;
+}
+/* bumping the recaptcha over under the other fields */
+.mainForm .formField #recaptcha_area {
+	padding-left: 160px;
+}
+.mainForm .formLine .formError {
+	border: 1px solid #ef3529;
+}
+.mainForm .formOption {
+	padding: 0 15px 0 0;
+}
+.tooltip {
+	display: none;
+	width: 144px;
+	left: 200px;
+	margin-left: 320px;
+	margin-top: -30px;
+	position: absolute;
+	float: left;
+	z-index: 900;
+}
+textarea + .tooltip {
+	margin-top: 0;
+	margin-left: 460px;
+}
+/* JM - font size adjusted per bugzilla #64 */
+.tooltip .tipMiddle {
+	padding: 0 10px;
+	font-size: 90%;
+}
+/* for the Appliance Loan Agreement and Partner agreements*/
+.mainForm .formField.checkBoxList {
+	width: 60%;
+}
+.mainForm .checkBoxList td {
+	padding: 0;
+	width: 33%;
+	height: 1.5em;
+}
+.mainForm .checkBoxList input {
+	float: left;
+}
+/* JM - adjusting for the EULA page in the downloads section */
+.eulaPage .formLabel {
+	width: 400px;
+	text-align: left;
+	margin-top: 11px;
+}
+.eulaPage .errorMsg {
+	clear: both;
+	margin-bottom: 20px;
+}
+/* PD - move tooltips to left for lead forms */
+.left160 {
+	left: 50px !important;
+}
+/* JB Button Fix for mySophos Login */
+
+.content .rArrow {
+	background: transparent url(/fairfax/media/images/bkgrd-button-rarrow.jpg) 0 0 no-repeat;
+}
+/* JB new styles for demandbase forms */
+
+fieldset.scfSectionBorderAsFieldSet {
+	border-top: none;
+	margin: 0px;
+}
+legend.scfSectionLegend {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.content table.scfCheckBoxList, table.scfCheckBoxList td, table.scfCheckBoxList th, table.scfCheckBoxList tr, .content table.scfRadioButtonList, table.scfRadioButtonList td, table.scfRadioButtonList th, table.scfRadioButtonList tr {
+	border: none;
+}
+.content table.scfCheckBoxList, .content table.scfRadioButtonList {
+ border-top: none:
+}
+table.scfCheckBoxList input[type=checkbox], table.scfRadioButtonList input[type="radio"] {
+	float: left;
+}
+div.scfForm label {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.scfCheckBoxListLabel, .scfSingleLineTextLabel, .scfMultipleLineTextLabel, .scfEmailLabel, scfRadioButtonListLabel {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-bottom: 3px;
+	color: #888;
+}
+div.scfForm {
+	font-family: Arial, Helvetica, sans-serif;
+}
+div.scfFooterBorder sup {
+	float: left;
+	line-height: inherit;
+	color: #888;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+div.scfFooterBorder label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #888;
+	margin-left: 10px;
+}
+div.scfFooterBorder p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #888;
+	margin-left: 10px;
+}
+span.scfRequired {
+	width: 10px;
+	float: none;
+	padding-left: 3px;
+	color: #888;
+}
+span.scfValidatorRequired {
+	width: 10px;
+	float: none;
+	padding-left: 3px;
+}
+.countryRegion span.scfValidatorRequired {
+	padding-left: 0px;
+}
+label.scfNumberLabel, label.scfTelephoneLabel, label.scfDropListLabel, label.scfRegionLabel {
+	width: 100%;
+	display: inline;
+	float: none;
+}
+select.scfDropList {
+	display: block;
+	margin-bottom: 15px;
+	margin-right: 5px;
+	border-radius: 4px;
+	padding: 2px 10px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	font-size: 13px;
+	box-shadow: rgba(255,255,255,0.7) 0px 1px 0px, rgba(0,0,0,0.1) 0px 1px 2px inset;
+	height: 25px;
+}
+select.scfDropList option {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* --- Gated Whitepaper style fixes for DB forms --- */
+
+.marqImg div.marqTitle {
+	height: auto;
+}
+/* ITTC-31 Focus on Buttons */
+input[type=text]:focus, input[type=search]:focus, input[type=password]:focus {
+	outline: none;
+	border: 1px solid #0077C5;
+}
+input:focus {
+	-webkit-box-shadow: 0 0 3px #0077C5;
+	-moz-box-shadow: 0 0 3px #0077C5;
+	box-shadow: 0 0 3px #0077C5;
+}
+input[type=submit]:focus {
+	outline: thin dotted #000000;
+}
+/* End ITTC-31 Focus on Buttons */
+  
+  
+  /* ITTC-5 */
+.mainForm .formLine .formFieldInnerFieldLabel {
+	text-align: left !important;
+	font-size: 13px;
+}
+.mainForm .formLine .formFieldInnerField .formLine input {
+	margin: 4px 0px 8px 0px
+}
+.fieldError {
+	border-color: red !important;
+}
+/* end ITTC-5 */
+  
+/* Custom Input Sizes */
+#iplookup {
+	background-image: none;
+	width: 128px;
+	margin-right: 5px;
+}
+/* Thank You Page */
+
+div.secondaryBump div.contentListItem {
+	background-color: #f1f1f1;
+	padding: 30px 200px 0px 20px;
+	margin-bottom: 30px;
+}
+.contentListItem ul {
+	list-style-type: none;
+}
+li.contentListItemImg {
+	width: 70px;
+	float: left;
+	padding-left: 150px;
+}
+div.contentListItem ul.bulletList li {
+	background: none;
+	font-weight: bold;
+}
+div.contentListItem p {
+	clear: both;
+}
+div.contentListItem h2 {
+	width: 370px;
+	padding-top: 7px;
+}
+/* demandbase form styles JB */
+
+div.scfForm {
+	background-color: #ecf5f6;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border: 1px solid #D3E2E3;
+	padding: 20px 40px 40px 40px;
+	width: 600px;
+	overflow: auto;
+}
+div.scfIntroBorder {
+	float: right;
+	width: 200px;
+	margin-top: 26px;
+}
+div.scfSectionContent {
+	width: 360px;
+}
+div.scfSectionContent input[type=text] {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	height: 35px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+}
+div.scfSubmitButtonBorder {
+	width: 400px;
+}
+fieldset.scfSectionBorderAsFieldSet {
+	width: 380px;
+	padding: 0px;
+}
+div.scfSingleLineGeneralPanel, div.scfEmailGeneralPanel, div.scfTelephoneGeneralPanel, div.scfDropListGeneralPanel, div.scfNumberGeneralPanel, div.scfMultipleLineGeneralPanel {
+	width: 340px;
+}
+legend.scfSectionLegend {
+	font-family: 'Flama-Basic';
+	font-weight: normal;
+	text-decoration: none;
+}
+label.scfSingleLineTextLabel, label.scfEmailLabel, label.scfMultipleLineTextLabel {
+	padding: 3px 0px;
+	width: 100%;
+	display: inline;
+	float: none;
+}
+div.scfValidationSummary {
+	background-color: #333333;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border: 1px solid #333333;
+	padding-left: 60px;
+	width: 320px;
+	margin-left: 0px;
+	background-image: url('/medialibrary/SophosNext/Images/Forms/error.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#freetrial div.scfSingleLineGeneralPanel input[type=text], #freetrial div.scfEmailGeneralPanel input[type=text], #freetrial div.scfTelephoneGeneralPanel input[type=text], #freetrial div.scfNumberGeneralPanel input[type=text] {
+	width: 340px;
+	background-color: #FFF;
+	position: relative;
+}
+div.scfValidationSummary ul li {
+	color: #FFF;
+	font-size: 12px;
+}
+
+div.scfIntroBorder span {
+	display: block;
+	font-family: 'Flama-basic';
+	color: #8d9e9f;
+	padding: 13px 0px 13px 75px;
+}
+
+div.scfIntroBorder span br {
+	display: none;
+	}
+
+.highlight1 {
+	background-image: url('/medialibrary/SophosNext/Images/Forms/calendar.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.highlight2 {
+	background-image: url('/medialibrary/SophosNext/Images/Forms/users.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.highlight3 {
+	background-image: url('/medialibrary/SophosNext/Images/Forms/lightning.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.know-how {
+	background-image: url('/medialibrary/SophosNext/Images/Forms/know-how.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.tips-advice {
+	background-image: url('/medialibrary/SophosNext/Images/Forms/tips-advice.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.written {
+	background-image: url('/medialibrary/SophosNext/Images/Forms/written.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.pricetag {
+	background-image: url('/medialibrary/SophosNext/Images/Forms/pricetag.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.clock {
+	background-image: url('/medialibrary/SophosNext/Images/Forms/clock.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+div.scfSubmitButtonBorder input[type=submit] {
+	position: relative;
+	border: 1px solid #37672F;
+	background-color: #7fbb72;
+}
+/* privacy policy */
+.scfSingleLineTextUsefulInfo {
+	position: relative;
+}
+.scfFooterBorder {
+	width: 360px;
+}
+.scfForm #privacy-policy {
+	position: absolute;
+	top: -85px;
+	left: 347px;
+	background: #FFF;
+	border: 1px solid #DDD;
+	padding: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+	width: 265px;
+	display: none;
+}
+.scfForm a.privacy-policy {
+	color: #0075C8;
+	font-size: 12px;
+	padding-right: 20px;
+	padding-left: 100px;
+}
+div.prehiddenDialogBox {
+	font-size: 13px;
+	font-family: 'Flama-basic';
+	text-align: left;
+	margin-top: 30px;
+	color: #888;
+}
+#tertiary ul li {
+	margin-left: 35px;
+	height: 41px;
+}
+#tertiary ul li a {
+	padding: 0px;
+}
+#tertiary div.container ul {
+	margin-top: 60px;
+	height: auto;
+}
+#freetrial div.well p {
+	margin-bottom: 1em;
+	line-height: 1.5em;
+}
+/* new play button */
+
+.play {
+	background: url("/medialibrary/SophosNext/Images/Navigation/play.png") right 50% no-repeat;
+	background-size: 16px 16px;
+	padding: 1px 23px 2px 0;
+	margin-right: -3px;
+	display: inline-block;
+}
+.download {
+	background: url("/medialibrary/SophosNext/Images/Navigation/arrow-down.png") right 50% no-repeat;
+	background-size: 16px 17px;
+	padding: 1px 23px 2px 0;
+	margin-right: -3px;
+	display: inline-block;
+}
+.thank-you {
+	text-align: center;
+	width: 100%;
+}
+.thank-you iframe {
+	display: none;
+}
+.thank-you-header {
+	display: inline-block;
+}
+.thank-you-header img {
+	float: left;
+	margin-top: 10px;
+}
+.thank-you-header h1 {
+	float: left;
+}
+.thank-you h1, .thank-you h2 {
+	text-align: center;
+	margin-bottom: 15px;
+	max-width: 770px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+}
+.thank-you h2 {
+	margin-top: 0px;
+	padding-left: 0px;
+	font-size: 1.2em;
+	font-family: Flama-Book;
+	color: #656565;
+}
+.thank-you p {
+	text-align: center;
+	font-family: Flama-Light;
+}
+.asset-detail p {
+	margin-bottom: 30px;
+}
+.trial-detail p, .primary-version .download-description {
+	font-size: 0.9em;
+	color: #AAAAAA;
+}
+.thank-you .trial-detail {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.primary-version .download-title {
+	font-family: flama-medium;
+	font-size: 1.1em
+}
+.primary-version .download-detail {
+	font-size: 1em;
+	color: #AAAAAA;
+	font-family: flama-medium;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+.thank-you .credential-container {
+	margin-top: -30px;
+}
+.credentials {
+	width: 660px;
+	background-color: #F5F5F5;
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.credentials h2 {
+	text-align: center;
+	font-family: Flama-Medium;
+	display: block;
+	font-size: 1.5em;
+}
+.credentials p {
+	color: #666666;
+	font-family: Flama-Medium;
+	font-size: 0.95em;
+	text-align: center;
+}
+.credentials .credential-details {
+	background-color: white;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 25px;
+}
+.credentials .username {
+	float: left;
+	color: #666666;
+	font-family: Flama-Medium;
+	max-width: 230px;
+	overflow: hidden;
+	word-wrap: break-word
+}
+.credentials .password {
+	float: right;
+	color: #666666;
+	font-family: Flama-Medium;
+	max-width: 250px;
+	overflow: hidden;
+	word-wrap: break-word
+}
+.credentials .username p, .credentials .password p {
+	color: #434343;
+	text-align: left;
+	font-size: 0.95em;
+}
+.link-button-green {
+	background-color: #66B250;
+	display: inline-block;
+	padding-left: 88px;
+	padding-right: 88px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 3px;
+	margin: auto;
+	cursor: pointer;
+	margin-bottom: 10px;
+	font-size: 1.1em;
+	max-width: 800px;
+}
+.additional-versions {
+	margin-top: 20px;
+}
+.additional-versions p {
+	margin-top: 10px;
+}
+.additional-versions a {
+	font-size: 0.95em;
+}
+.thank-you-content {
+	width: 800px;
+	margin: auto;
+}
+.thank-you a em {
+	font-family: Flama-Medium;
+}
+.thank-you a, .thank-you a:hover, .thank-you a:active, .thank-you a:visited, .thank-you i {
+	color: #007ABD;
+	font-family: Flama-Medium;
+}
+.thank-you-content a, .thank-you-content a:hover, .thank-you-content a:active, .thank-you-content a:visited {
+	color: #007ABD;
+	font-family: Flama-Basic;
+	padding-left: 15px;
+}
+.thank-you-content p, .additional-versions p, .thank-you-content li {
+	color: #666666;
+	font-family: Flama-Basic;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-align: left;
+}
+.thank-you-content p a, .thank-you-content p a:hover, .thank-you-content p a:active, .thank-you-content p a:visited, .thank-you-content li a, .thank-you-content li a:hover, .thank-you-content li a:active, .thank-you-content li a:visited {
+	padding-left: 0px;
+}
+.thank-you-content pre {
+	padding-left: 15px;
+}
+.thank-you-content p pre {
+	padding-left: 0px;
+}
+.thank-you-content h1 {
+	margin-top: 10px;
+}
+.additional-versions p {
+	text-align: center;
+	font-family: Flama-Medium;
+}
+.additional-versions .download-link {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.additional-versions .download-link.blue-download-arrow a {
+	background: url("/medialibrary/SophosNext/Images/Navigation/download-arrow-blue.png") right 60% no-repeat;
+	padding-right: 20px;
+}
+.thank-you-content p.restricted-trial-detail {
+	text-align: center
+}
+.thank-you-content p {
+	font-size: 0.95em;
+}
+.thank-you-content li {
+	font-size: 1.2em;
+}
+.thank-you-content ol {
+	padding-left: 25px;
+	font-size: 80%;
+}
+.thank-you-content .bulletList li {
+	padding-left: 18px;
+}
+.thank-you-content ul {
+	margin-top: 20px;
+	font-size: 80%;
+}
+.thank-you-content ul.bulletList {
+	padding-left: 15px;
+}
+.thank-you-content p:first-child {
+	margin-top: 35px;
+}
+.thank-you .thank-you-content h2, .thank-you .thank-you-content h3, .widget-section .widget h2, .widget-section .widget h3 {
+	margin-top: 35px;
+	background-color: #F5F5F5;
+	font-family: Flama-Medium;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	text-align: left;
+	display: block;
+	color: #444;
+	font-size: 1.3em;
+}
+a.thank-you-download-link {
+	background: url("/medialibrary/SophosNext/Images/Navigation/download-arrow-blue.png") right 60% no-repeat;
+	padding-right: 20px;
+}
+.thank-you .link-button-green, .thank-you .link-button-green:hover, .thank-you .link-button-green:active, .thank-you .link-button-green:visited {
+	color: white;
+}
+.widget-section {
+	margin: auto;
+	width: 1000px;
+}
+.widget-section .widget {
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 300px;
+}
+.widget-section .widget h2, .widget-section .widget h3 {
+	background-color: white;
+	text-align: center;
+	margin-bottom: 10px
+}
+.widget-section .widget div, .widget-section .widget #product-downloads, .widget-section .widget #product-screenshots {
+	text-align: center;
+	margin-left: 0px;
+}
+/* remove borders on checkbox list in table */
+
+div.scfCheckBoxListGeneralPanel table {
+	border: none;
+	box-shadow: none;
+}
+div.scfCheckBoxListGeneralPanel table td {
+	box-shadow: none;
+}
+div.scfCheckBoxListGeneralPanel table td {
+	padding: 0px 10px;
+}
+/*add padding to the skip button */
+
+input.skip {
+	margin-left: 50px;
+}
+/* add style to partner form message when applicable */
+
+div#partner_message {
+	position: absolute;
+	top: 350px;
+	right: 100px;
+	background: #FFF;
+	border: 1px solid #DDD;
+	padding: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+	width: 265px;
+	display: none;
+}
+div#partner_notification {
+	margin-bottom: 15px;
+}
+/* green button style for free trial download */
+
+div.asset-detail a {
+	background-color: #7fbb72;
+	background-image: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline;
+	font-family: Flama-Basic;
+	font-size: 13px;
+	height: 18px;
+	line-height: 15px;
+	text-align: left;
+	text-decoration: none;
+	width: 47px;
+	zoom: 1;
+	margin: 20px;
+	padding: 5px 12px 6px;
+}
+div.thankyou div.asset-detail a, div.thankyou div.asset-detail a:active, div.thankyou div.asset-detail a:hover, div.thankyou div.asset-detail a:visited {
+	color: #fff;
+}
+div.scfForm .form-message {
+	color: #888;
+	font-size: 13px
+}
+/* Export Compliance Forms and Results */
+
+
+div.export_message p {
+	text-align: center;
+	margin-bottom: 15px;
+	max-width: 770px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+}
+div.export_link {
+	text-align: center;
+	color: #666;
+	line-height: 1.5;
+	margin-top: 35px;
+}
+div.export_link a {
+	font-weight: bold;
+}
+
+div#sophosnext_content_0_form_E0625C40DD124FE0BB04D8611B743818_intro {
+font-family: 'Flama-basic';
+color: #8d9e9f;
+}
+
+/* export links when in list */
+
+li div.downloadMainWidget {
+	padding: 0px 0 14px 0px;
+	list-style-type:none;
+}
+
+li div.downloadMainWidget p {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+li div.downloadMainWidget p:first-child {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+/* new entitlement asset link */
+
+div.downloadMainWidget {
+	display: block;
+	font-family: 'Flama-medium';
+	background-image: none;
+}
+div.downloadMainWidget p {
+	display: block;
+	margin-bottom: 20px;
+	padding-left:0px;
+}
+li div.downloadMainWidget p {
+	display: block;
+	margin-bottom: 20px;
+}
+div.downloadMainWidget a {
+	color: #ffffff;
+	font-size: 16px;
+	padding: 14px 60px 14px 27px;
+	border-radius: 5px;
+	background-color: #0072bb;
+	background-image: url('/medialibrary/3A8CD6E1FBA2477CA6D929B32C732D58.ashx');
+	background-position: 125px center;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+p.downloadMainTitle {
+	font-family: 'Flama-medium';
+	font-size: 16px;
+}
+p.downloadFileName {
+	font-size: 14px;
+	margin: 0px 0px 30px;
+}
+/*override styles on Thank You Pages */
+	
+.thank-you div.downloadMainWidget a, .thank-you div.downloadMainWidget a:hover, .thank-you div.downloadMainWidget a:active, .thank-you div.downloadMainWidget a:visited {
+	color: #ffffff;
+	padding: 14px 60px 14px 27px;
+}
+
+div.downloadMainWidget.productdownloadMainWidget p a {
+	color: #ffffff;
+	font-size: 16px;
+	padding: 14px 60px 14px 27px;
+	border-radius: 5px;
+	background-color: #0072bb;
+	background-image: url('/medialibrary/3A8CD6E1FBA2477CA6D929B32C732D58.ashx');
+	background-position: 125px center;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}

@@ -1,0 +1,148 @@
+/* -------------------------------------------------- */
+/* ! sophos.css
+	                 _
+	 ___  ___  _ __ | |__   ___  ___   ___ ___ ___
+	/ __|/ _ \| '_ \| '_ \ / _ \/ __| / __/ __/ __|
+	\__ \ (_) | |_) | | | | (_) \__ \| (__\__ \__ \
+	|___/\___/| .__/|_| |_|\___/|___(_)___|___/___/
+	          |_|
+*/
+/* -------------------------------------------------- */
+
+.malware .threat-charts > div.last-child {
+	margin-right: 0;
+}
+.link-list li.last-child,
+.link-list li.last-child a:hover {
+  border-bottom:none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.link-list-product-downloads li.last-child a{
+  padding-bottom:16px; /* Pixel perfection FTW! */
+}
+.well-list ul li.last-child{
+  border-bottom:0px;
+}
+.well-definition-list dd.last-child{
+  border-bottom:0px;
+}
+.switchbox.switchbox-pills li.last-child a {
+  -webkit-border-radius: 0 20px 20px 0;
+          border-radius: 0 20px 20px 0;
+  background-clip: padding-box;
+  padding-right: 5px;
+}
+.horizontal-tabs .panel li.last-child {
+  margin-bottom:0;
+}
+.contact-details p.last-child{
+  margin-bottom:0;
+}
+.contact-details .entry.last-child {
+  border-bottom: none;
+}
+.feature .col p.last-child{
+  margin-bottom:0;
+}
+#techspecs .data > li.last-child{
+  -ie-border-radius: 0 0 0 4px;
+  -webkit-border-radius: 0 0 0 4px;
+  -moz-border-radius: 0 0 4px 0;
+  border-radius: 0 0 4px 0;
+}
+#techspecs .storage-header li.last-child{
+  width:200px !important;
+}
+#techspecs .storage-ports li.last-child{
+  width:198px !important;
+}
+#techspecs .system-requirements-header + ul.data > li.last-child {
+  width: 241px !important;
+  border-left: 1px solid #dddddd;
+}
+#techspecs .storage-ports li li.last-child{
+  width:33.3% !important;
+}
+.product-features li.last-child {
+  margin-bottom:0;
+}
+.case-studies ul.bordered.last-child {
+  margin-right: 0;
+}
+.sm-header li.last-child{
+  border-right:1px solid #DDDDDD;
+  -ie-border-radius: 0 4px 0 0;
+  -webkit-border-radius: 0 4px 0 0;
+  -moz-border-radius: 0 4px 0 0;
+  border-radius: 0 4px 0 0;
+}
+.clear-list li.last-child{
+  border-bottom:1px solid #DDD;
+}
+.podcasts ul.last-child li{
+  text-align:right;
+  float:right;
+  margin:0 12px 0 0px;
+}
+.sys-reqs-box ul.last-child{
+  border-right:0px;
+}
+
+/* -------------------------------------------------- */
+/* ! header.css
+	 _                    _
+	| |__   ___  __ _  __| | ___ _ __ ___ ___ ___
+	| '_ \ / _ \/ _` |/ _` |/ _ \ '__/ __/ __/ __|
+	| | | |  __/ (_| | (_| |  __/ | | (__\__ \__ \
+	|_| |_|\___|\__,_|\__,_|\___|_|(_)___|___/___/
+
+*/
+/* -------------------------------------------------- */
+
+#header li.last-child{
+  margin-right:0;
+}
+#popup-products ol li.last-child{
+  border-top-right-radius: 5px;
+}
+#popup-products ul.last-child{
+  border-right:none;
+  box-shadow: none;
+}
+#popup-products ul li.last-child a:hover{
+  box-shadow:inset 0px 1px 0px #DDD;
+}
+#popup-products ul:first-child li.last-child:hover{
+  border-bottom-left-radius: 5px;
+}
+#header #popup-search li.last-child a, #header #popup-global li.last-child a{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* -------------------------------------------------- */
+/* ! forms.css
+	  __
+	 / _| ___  _ __ _ __ ___  ___   ___ ___ ___
+	| |_ / _ \| '__| '_ ` _ \/ __| / __/ __/ __|
+	|  _| (_) | |  | | | | | \__ \| (__\__ \__ \
+	|_|  \___/|_|  |_| |_| |_|___(_)___|___/___/
+
+*/
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/* ! footer.css
+    __             _
+   / _| ___   ___ | |_ ___ _ __ ___ ___ ___
+  | |_ / _ \ / _ \| __/ _ \ '__/ __/ __/ __|
+  |  _| (_) | (_) | ||  __/ | | (__\__ \__ \
+  |_|  \___/ \___/ \__\___|_|(_)___|___/___/
+
+*/
+/* -------------------------------------------------- */
+#footer .container > div.last-child{
+  margin-right: 0;
+}

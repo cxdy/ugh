@@ -1,0 +1,43 @@
+Instructions:
+
+1) Type the answer to the question in place of 
+<Type Answer Here>
+
+2) Save the file (you will not get credit until the 
+file is saved)
+
+Example question (not scored):
+
+What was the name of the Lone Ranger's horse?
+
+ANSWER: <Type Answer Here>
+
+After correctly answering the question, the example 
+question would look like this:
+
+What was the name of the Lone Ranger's horse?
+
+ANSWER: Silver
+
+If the question has more than one answer, place each 
+answer on a separate line, for example:
+
+What was the name of the Lone Ranger's horse?
+
+ANSWER: Silver
+ANSWER: Dusty
+
+Remember to save the file after typing the answer.  
+The scored question appears below.
+
+===========================================================
+
+One of the employees has a sensitive file named 
+EmployeeSalaries.txt located somewhere under their home 
+directory. What is the absolute path of the directory 
+containing EmployeeSalaries.txt?
+
+( EXAMPLE: /path/to/directory/ )
+
+ANSWER: /home/riggs/.docs/
+

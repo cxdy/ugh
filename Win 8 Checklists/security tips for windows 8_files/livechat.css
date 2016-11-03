@@ -1,0 +1,120 @@
+
+body, table, input, textarea, select {
+  font-family: 'Flama-Basic', Helvetica, Arial, sans-serif;
+}
+
+html.theme-cloud .outline{
+  background:#007AC6 !important;
+}
+
+/* color of outline displayed around whole chat window */
+.outline {
+  /* fallback for browsers not supporting "rgba()" syntax */
+  border-color: #007AC6 !important;
+  background:#007AC6 !important;
+  /* for all modern browsers - nice transparency effect */
+  /*border-color: rgba(255, 150, 100, 0.5);*/
+  /* no border */
+  border: none;
+}
+
+/* color of header's background */
+.title{
+  color:#FFF;
+}
+.title-bg {
+    background-color: #007AC6;
+}
+
+/* minimize / pop-out / close chat buttons */
+.title-button {
+  background-color: #007AC6;
+}
+/* minimize / pop-out / close chat buttons (mouseover state) */
+.title-button:hover {
+  background-color: #007AC6;
+}
+
+/**
+ * === Operator photo & name ===
+*/
+
+.operators-bar img {
+  border-radius: 30px !important;
+}
+
+/* operator name size and color */
+.operator-name {
+  color: #333;
+  font-size: 16px;
+  margin-bottom:-2px;
+}
+
+/* operator role size and color */
+.operator-role {
+  color: #999;
+  font-size:11px;
+}
+
+/* operator background color */
+#operators td {
+    background: #007AC6 !important;
+}
+
+/**
+ * === Chat content ===
+*/
+
+/* message from the operator */
+.operator {
+  background-color: #E5F1F9;
+  border-color: #CBE4F3;
+  color: #0074C4;
+  font-size: 13px;
+  line-height: 1.5;
+}
+/* operator's name visible in each message */
+.operator .author {
+  color: #7DB9E1;
+  text-transform: uppercase;
+  font-size:11px;
+}
+
+/* message from the visitor */
+.client {
+  background-color: #FFF;
+  border-color: #DDD;
+  color: #333;
+  font-size: 13px;
+  line-height: 1.5;
+}
+/* visitor's name visible in each message */
+.client .author {
+  color: #999;
+  text-transform: uppercase;
+  font-size:11px;
+}
+
+/* background color */
+#body-inner {
+    background-color: #FFF;
+}
+
+/* footer styles */
+.footer {
+  background-color: #007AC6;
+  color: #97C8E7;
+}
+
+/* nice-looking inner shadow visually dropped
+ * between chat content and textarea */
+.message-wrapper {
+  -moz-box-shadow: inset 0 6px 6px #007AC6;
+  -webkit-box-shadow: inset 0 6px 6px #007AC6;
+  box-shadow: inset 0 6px 6px #007AC6;
+}
+
+/*Remove social media link*/
+#social{
+  display:none !important;
+}

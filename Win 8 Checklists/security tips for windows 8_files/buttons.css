@@ -1,0 +1,10 @@
+a.btn {
+  -ie-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding: 4px 18px 7px;
+  background: green;
+  color: #fff;
+  text-decoration: none;
+}

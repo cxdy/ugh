@@ -1,0 +1,47 @@
+Instructions:
+
+1) Type the answer to the question in place of 
+<Type Answer Here>
+
+2) Save the file (you will not get credit until the 
+file is saved)
+
+Example question (not scored):
+
+What was the name of the Lone Ranger's horse?
+
+ANSWER: <Type Answer Here>
+
+After correctly answering the question, the example 
+question would look like this:
+
+What was the name of the Lone Ranger's horse?
+
+ANSWER: Silver
+
+If the question has more than one answer, place each 
+answer on a separate line, for example:
+
+What was the name of the Lone Ranger's horse?
+
+ANSWER: Silver
+ANSWER: Dusty
+
+Remember to save the file after typing the answer.  
+The scored question appears below.
+
+===========================================================
+
+If you run the command line command "firefox" it will 
+launch the Firefox browser.  Suppose you wanted to know
+where the command is that launches firefox.  Running
+the command "which firefox" will tell you that the 
+"firefox" command is located at /usr/bin/firefox.  However,
+"/usr/bin/firefox" is just a symbolic link, or symlink.  
+Symlinks point to other files on the filesystem.  What is 
+the ABSOLUTE PATH of the shell script pointed to by the 
+symlink "/usr/bin/firefox"?
+
+( EXAMPLE: /path/to/a/shell/script.sh )
+
+ANSWER: /usr/lib/firefox/firefox.sh
